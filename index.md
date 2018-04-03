@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to Maze Benchmark
 
-You can use the [editor on GitHub](https://github.com/mazebenchmark/mazebenchmark.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This web page contains the supplementary material of the paper titled "Maze Benchmark for Evolutionary Algorithms". In this site you can download the dataset and the Software used. In addition, you're going to find the user guide for this material.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I want to welcome you, and I hope you find this material useful.
 
 ### Markdown
 
