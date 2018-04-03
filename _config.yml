@@ -1,7 +1,7 @@
-theme: jekyll-theme-cayman
+etheme: jekyll-theme-cayman
 title: Maze Benchmark for Evolutionary Algorithms
 desciption: web page for all supplementary material
 
 github:
   zip_url: https://github.com/mazebenchmark/mazebenchmark.github.io/raw/master/download/dataset.zip
-  another_url: https://github.com/mazebenchmark/mazebenchmark.github.io/raw/master/download/MazeGenerator.jar
+  executable_url: https://github.com/mazebenchmark/mazebenchmark.github.io/raw/master/download/MazeGenerator.jar
