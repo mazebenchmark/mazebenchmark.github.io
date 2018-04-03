@@ -1,5 +1,4 @@
-etheme: jekyll-theme-cayman
+theme: jekyll-theme-slate
 title: Maze Benchmark for Evolutionary Algorithms
 desciption: web page for all supplementary material
 show_downloads: true
-theme: jekyll-theme-slate
