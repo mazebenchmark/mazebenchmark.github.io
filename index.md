@@ -4,9 +4,18 @@ This web page contains the supplementary material of the paper titled "Maze Benc
 
 I want to welcome you, and I hope you find this material useful.
 
-### Markdown
+### Dataset
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The `dataset` folder contains the maze sets generated for testing Evolutionary Algorithms. This folder has two folders which match with the two proposed benchmark problems. These problems are the "Similarly Connected Maze Problem" (folder `SCMP`), and the "Differently Connected Maze Problem" (folder `DCMP`).
+
+The `SCMP` folder 
+
+Folder | Connectivity|  Total
+-------|-------------|--------
+`SCMP1`|      0%     |10 mazes
+`SCMP2`|     30%     |10 mazes
+`SCMP3`|     60%     |10 mazes
+`SCMP2`|    100%     |10 mazes
 
 ```markdown
 Syntax highlighted code block
