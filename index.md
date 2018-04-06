@@ -62,7 +62,26 @@ And all `Test` folders contains the following mazes:
 
 ## Data Files
 
+Two kinds of files are used to store both maze structures (.mz) and starting locations (.loc). How to these files are written and what these files are interpreted, are described in the next two sections.
+
 ### .mz Files
+
+The `.mz` files contains the maze structure information: size, connectivity, and walls plot. 
+
+          **.mz File**         |information
+-------------------------------|-----------
+> 10 10                        |
+> 25.0                         |
+>  9  5  5  5  1  1  1  1  1  7|
+> 12  1  3 11 12  2  8  0  0  7|
+>  9  2 30  8  5  4  2 14 10 11|
+> 14 10  9  4  7  9  2 13  2 10|
+> 13  0  0  1  1  2  8  1  0  6|
+>  9  2 12  6  8  0  2  8  0  3|
+> 10  8  3 13  0  2 10  8  0  6|
+>  8  2  8  1  2 10 12  2  8  3|
+>  8  0  0  4  0  6 11 10 14 10|
+> 12  4  4  7 12  5  4  4  7 14|
 
 ### .loc Files
 
