@@ -27,8 +27,6 @@ Additionally, in SCMP folders there is also the folder `images`, where there are
 
 ## Copyright
 
-
-
 ```markdown
 Syntax highlighted code block
 
