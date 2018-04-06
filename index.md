@@ -4,6 +4,12 @@ This web page contains the supplementary material of the paper titled "Maze Benc
 
 I want to welcome you, and I hope you found this material useful.
 
+- [Dataset](#Dataset)
+- [SCMP Folder](#SCMP-folder)
+- [DCMP Folder](#DCMP-folder)
+
+> Explore the various features to save time in your usage of this material.
+
 ## Dataset
 
 The `dataset` folder contains the maze sets generated for testing Evolutionary Algorithms. This folder has two folders which match with the two proposed benchmark problems. These problems are the "Similarly Connected Maze Problem" (folder `SCMP`), and the "Differently Connected Maze Problem" (folder `DCMP`).
