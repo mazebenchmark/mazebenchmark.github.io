@@ -83,6 +83,8 @@ The `.mz` files contains the maze structure information: size, connectivity, and
 ```8  0  0  4  0  6 11 10 14 10```|Row 9 cells setup
 ```12  4  4  7 12  5  4  4  7 14```|Row 10 cells setup
 
+![sample_maze](images/sample_maze "Sample Maze")
+
 ### .loc Files
 
 ## Copyright
