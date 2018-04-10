@@ -83,7 +83,7 @@ The `.mz` files contains the maze structure information: size, connectivity, and
 ```8  0  0  4  0  6 11 10 14 10```|Row 9 cells setup
 ```12  4  4  7 12  5  4  4  7 14```|Row 10 cells setup
 
-The first two values indicates the weight and the height of a maze (in cells). The next value indicates the connectivity of the maze. Finally, there are **width X height** values that indicate which walls surround each cell of the maze. These values encode the surrounded wall by using 5 bits. The rightmost bit is used to 
+The first two values indicates the weight and the height of a maze (in cells). The next value indicates the connectivity of the maze. Then, there are **width X height** values that indicate which walls surround each cell of the maze. These values encode the surrounded wall by using 5 bits. The rightmost bit indicates whether a wall surround the upper side of a cell, the second rightmost the right side, the third the lower side, the fourth the left side. Finally, the leftmost bit indicates whether the cell is a goal cell. The following table, summarizes the cell representation for each possible value:
 
 **Value**|**Bits**|**Cell**|**Value**|**Bits**|**Cell**
 ---------|--------|--------|---------|--------|--------
@@ -104,7 +104,7 @@ The first two values indicates the weight and the height of a maze (in cells). T
 14|01110|0|30|11110|0
 15|01111|0|31|11111|0
 
-The resulting maze of the file shown in the table is this:
+Finally, the resulting maze of the file shown in the table is this:
 
 ![sample_maze](/images/sample_maze.png "Sample Maze")
 
