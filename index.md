@@ -70,18 +70,18 @@ The `.mz` files contains the maze structure information: size, connectivity, and
 
           **.mz File**         |information
 -------------------------------|-----------
-> 10 10                        |
-> 25.0                         |
->  9  5  5  5  1  1  1  1  1  7|
-> 12  1  3 11 12  2  8  0  0  7|
->  9  2 30  8  5  4  2 14 10 11|
-> 14 10  9  4  7  9  2 13  2 10|
-> 13  0  0  1  1  2  8  1  0  6|
->  9  2 12  6  8  0  2  8  0  3|
-> 10  8  3 13  0  2 10  8  0  6|
->  8  2  8  1  2 10 12  2  8  3|
->  8  0  0  4  0  6 11 10 14 10|
-> 12  4  4  7 12  5  4  4  7 14|
+```  10 10                        ```|widht and height
+``` 25.0                         ```|connectivity
+```  9  5  5  5  1  1  1  1  1  7```|Row 1 cells setup
+``` 12  1  3 11 12  2  8  0  0  7```|Row 2 cells setup
+```  9  2 30  8  5  4  2 14 10 11```|Row 3 cells setup
+``` 14 10  9  4  7  9  2 13  2 10```|Row 4 cells setup
+``` 13  0  0  1  1  2  8  1  0  6```|Row 5 cells setup
+```  9  2 12  6  8  0  2  8  0  3```|Row 6 cells setup
+``` 10  8  3 13  0  2 10  8  0  6```|Row 7 cells setup
+```  8  2  8  1  2 10 12  2  8  3```|Row 8 cells setup
+```  8  0  0  4  0  6 11 10 14 10```|Row 9 cells setup
+``` 12  4  4  7 12  5  4  4  7 14```|Row 10 cells setup
 
 ### .loc Files
 
