@@ -66,7 +66,7 @@ Two kinds of files are used to store both maze structures (.mz) and starting loc
 
 ### .mz Files
 
-The `.mz` files contains the maze structure information: size, connectivity, and walls plot. 
+The `.mz` files contains the maze structure information: size, connectivity, and walls plot. The following table shows an example of a `.mz` file and what indicates each value:
 
 **.mz File**|**Indicates**
 -------------------------------|-----------
@@ -82,6 +82,29 @@ The `.mz` files contains the maze structure information: size, connectivity, and
 ```8  2  8  1  2 10 12  2  8  3```|Row 8 cells setup
 ```8  0  0  4  0  6 11 10 14 10```|Row 9 cells setup
 ```12  4  4  7 12  5  4  4  7 14```|Row 10 cells setup
+
+The first two values indicates the weight and the height of a maze (in cells). The next value indicates the connectivity of the maze. Finally, there are **width X height** values that indicate which walls surround each cell of the maze. These values encode the surrounded wall by using 5 bits. The rightmost bit is used to 
+
+**Value**|**Bits**|**Cell**|**Value**|**Bits**|**Cell**
+---------|--------|--------|---------|--------|--------
+0|00000|0|16|10000|0
+1|00001|0|17|10001|0
+2|00010|0|18|10010|0
+3|00011|0|19|10011|0
+4|00100|0|20|10100|0
+5|00101|0|21|10101|0
+6|00110|0|22|10110|0
+7|00111|0|23|10111|0
+8|01000|0|24|11000|0
+9|01001|0|25|11001|0
+10|01010|0|26|11010|0
+11|01011|0|27|11011|0
+12|01100|0|28|11100|0
+13|01101|0|29|11101|0
+14|01110|0|30|11110|0
+15|01111|0|31|11111|0
+
+The resulting maze of the file shown in the table is this:
 
 ![sample_maze](/images/sample_maze.png "Sample Maze")
 
