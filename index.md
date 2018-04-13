@@ -87,22 +87,22 @@ The first two values indicates the weight and the height of a maze (in cells). T
 
 **Value**|**Bits**|**Cell**|**Value**|**Bits**|**Cell**
 ---------|--------|--------|---------|--------|--------
-0|00000|0|16|10000|0
-1|00001|0|17|10001|0
-2|00010|0|18|10010|0
-3|00011|0|19|10011|0
-4|00100|0|20|10100|0
-5|00101|0|21|10101|0
-6|00110|0|22|10110|0
-7|00111|0|23|10111|0
-8|01000|0|24|11000|0
-9|01001|0|25|11001|0
-10|01010|0|26|11010|0
-11|01011|0|27|11011|0
-12|01100|0|28|11100|0
-13|01101|0|29|11101|0
-14|01110|0|30|11110|0
-15|01111|0|31|11111|0
+0|00000|![](/images/cells/0.png)|16|10000|![](/images/cells/16.png)
+1|00001|![](/images/cells/1.png)|17|10001|![](/images/cells/17.png)
+2|00010|![](/images/cells/2.png)|18|10010|![](/images/cells/18.png)
+3|00011|![](/images/cells/3.png)|19|10011|![](/images/cells/19.png)
+4|00100|![](/images/cells/4.png)|20|10100|![](/images/cells/20.png)
+5|00101|![](/images/cells/5.png)|21|10101|![](/images/cells/21.png)
+6|00110|![](/images/cells/6.png)|22|10110|![](/images/cells/22.png)
+7|00111|![](/images/cells/7.png)|23|10111|![](/images/cells/23.png)
+8|01000|![](/images/cells/8.png)|24|11000|![](/images/cells/24.png)
+9|01001|![](/images/cells/9.png)|25|11001|![](/images/cells/25.png)
+10|01010|![](/images/cells/10.png)|26|11010|![](/images/cells/26.png)
+11|01011|![](/images/cells/11.png)|27|11011|![](/images/cells/27.png)
+12|01100|![](/images/cells/12.png)|28|11100|![](/images/cells/28.png)
+13|01101|![](/images/cells/13.png)|29|11101|![](/images/cells/29.png)
+14|01110|![](/images/cells/14.png)|30|11110|![](/images/cells/30.png)
+15|01111|![](/images/cells/15.png)|31|11111|![](/images/cells/31.png)
 
 Finally, the resulting maze of the file shown in the table is this:
 
